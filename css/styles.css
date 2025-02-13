@@ -69,7 +69,6 @@ section {
     background-color: rgb(250, 226, 212);
     padding: 16px;
     border-radius: 16px;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
     width: 32%;
 }
 
@@ -80,7 +79,36 @@ article {
     gap: 24px;
 }
 
+article a {
+    /* color: rgb(65, 62, 62); */
+    font-size: 12px;
+}
 main .details{
     display: flex;
     gap: 16px;
 }
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.logo {
+    width: 100px;
+    object-fit: cover;
+}
+
+p {
+    color: rgb(65, 62, 62);
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 12px;
+    color: rgb(65, 62, 62);
+}
+
